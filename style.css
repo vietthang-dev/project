@@ -4,8 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'Times New Roman', Times, serif
 }
+
 .header-bg{
-	width: 100vw;
+	width: 100%;
 	height: auto;
 	background: url('./anh/baner.jpg');
 	padding: 2px;
@@ -58,10 +59,10 @@
 }
 
 #nav-id{
-	font-size: 16px;
+	font-size: 17px;
 	margin-bottom: 2px;
-
 }
+
 .nav-header{
 	margin: 0; 
 }
@@ -72,7 +73,7 @@
 }
 .navbar, .navbar-nav, .nav-link{
 	margin: 0;
-	padding: 0;
+	padding: 0 10px;
 }
 
 #container{
@@ -104,8 +105,8 @@
 	outline: none;
 	border: none;
 	padding: 3px;
-
 }
+
 
 #btn-nav{
 	background: red;
@@ -120,3 +121,39 @@
 	width: 100vw;
 	height: 450px;
 }
+
+.section-1-bg{
+	background: url('./anh/baner.jpg');
+	width: 100%;
+	height: auto;
+}
+
+#card-bg{
+	background: black;
+	color: white;
+	text-align: center;
+}
+
+
+#card-bg h4{
+	color: red;
+	font-size: 40px;
+	text-shadow: 1px 2px 3px white;
+	font-weight: 500;
+}
+
+#card-bg p{
+	font-size: 20px;
+
+}
+
+.btn-card{
+	color: white;
+	background: red;
+	border: none;
+	outline: none;
+	font-weight: 500;
+	box-shadow: 1px 0px 1px grey;
+	padding: 2px 12px;
+}
+
