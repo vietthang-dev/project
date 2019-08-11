@@ -115,3 +115,8 @@
 	outline: none;
 	border: none;
 }
+
+#carousel-img img{
+	width: 100vw;
+	height: 450px;
+}
